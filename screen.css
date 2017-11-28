@@ -11,9 +11,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
@@ -29,7 +29,7 @@ table {
   border-spacing: 0; }
 
 caption, th, td {
-  text-align: left;
+  text-align: center;
   font-weight: normal;
   vertical-align: middle; }
 
@@ -56,3 +56,62 @@ a {
 
 #main {
   padding: 50px; }
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: cambria;
+  font-size: 5em;
+}
+
+h2 {
+  text-align: center;
+  color:gray;
+  font-family: cambria;
+  font-size: 2em;
+}
+
+h3 {
+text-align: center;
+  color: black;
+  font-family: cambria;
+  font-size: 2em;
+}
+
+.project {
+width: 30%;
+height: 25%;
+border: 1px solid gray;
+padding: 5px;
+position: absolute;
+top: 50%;
+left: 0%;
+margin-top: -50px;
+margin-left: 0px;
+}
+
+.zombie {
+width: 30%;
+height: 25%;
+border: 1px solid gray;
+padding: 5px;
+position: absolute;
+top: 50%;
+left: 40%;
+margin-top: -50px;
+margin-left: -100px;
+}
+
+.resume {
+width: 30%;
+height: 25%;
+border: 1px solid gray;
+padding: 5px;
+position: absolute;
+top: 50%;
+left: 80%;
+margin-top: -50px;
+margin-left: -200px;
+}
+
+
