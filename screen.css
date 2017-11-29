@@ -60,22 +60,29 @@ a {
 h1 {
   text-align: center;
   color: black;
-  font-family: cambria;
+  font-family: Century Gothic;
   font-size: 5em;
 }
 
 h2 {
   text-align: center;
-  color:gray;
-  font-family: cambria;
+  color:white;
+  font-family: Century Gothic;
   font-size: 2em;
 }
 
 h3 {
 text-align: center;
   color: black;
-  font-family: cambria;
+  font-family: Century Gothic;
   font-size: 2em;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-family: Century Gothic;
+  font-size: 1em;
 }
 
 .project {
